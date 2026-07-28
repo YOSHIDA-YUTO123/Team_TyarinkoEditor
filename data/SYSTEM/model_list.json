@@ -1,0 +1,127 @@
+{
+    "MODEL_INFO": [
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/House_Type_1_LowPoly.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/telephonepole.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/PrivateHouse.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/conveniencestore.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/ground_concrete.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/ground_grassy_area.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/ground_soil.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/House_Type_2.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/school_route_signs.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Stone_Fence.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/stop_sign.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Tree_Large.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Tree_Medium.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Tree_Spruce.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Tree_Without_Leaves.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/vending_machine_blue.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/vending_machine_red.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/House_Single.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Car_Type_1.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Car_Type_2.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Car_Type_3.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Car_Type_4.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Car_Type_5.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Mansion.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Office.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Bush_Green_1.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Bush_Green_2.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Bush_Red.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/House_Type_1.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/telephonepoleverybig.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TreesGroup_Large.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TreesGroup_Medium.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TreesGroup_No_Leaves.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TreesGroup_Random.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TreesGroup_Spruce.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/PlayerHouse_Floor.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/PlayerHouse_Wall_Door.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/PlayerHouse_Wall_Window.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Bed.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/Desk.x"
+        },
+        {
+            "file_path": "data/MODEL/MAP_OBJECT/TV.x"
+        }
+    ]
+}

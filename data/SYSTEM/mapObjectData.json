@@ -1,0 +1,2005 @@
+{
+    "data/MODEL/MAP_OBJECT/Bench.x": {
+        "BreakSoundName": "wood",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 60.0,
+                    "y": 90.0,
+                    "z": 210.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 43.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 6.0,
+                    "y": 9.0,
+                    "z": 21.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 205.0,
+                    "y": 90.0,
+                    "z": 340.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 43.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.5,
+                    "y": 9.0,
+                    "z": 34.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 4,
+        "money": 3000
+    },
+    "data/MODEL/MAP_OBJECT/Building_1.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 250.0,
+                    "y": 1160.0,
+                    "z": 430.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 582.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 25.0,
+                    "y": 116.0,
+                    "z": 43.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 400.0,
+                    "y": 1160.0,
+                    "z": 630.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 582.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 40.0,
+                    "y": 116.0,
+                    "z": 63.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_2.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 200.0,
+                    "y": 1400.0,
+                    "z": 660.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 690.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.0,
+                    "y": 140.0,
+                    "z": 66.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 400.0,
+                    "y": 1400.0,
+                    "z": 850.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 690.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 40.0,
+                    "y": 140.0,
+                    "z": 85.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_3.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 250.0,
+                    "y": 1280.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 635.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 25.0,
+                    "y": 128.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 500.0,
+                    "y": 1280.0,
+                    "z": 730.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 635.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 50.0,
+                    "y": 128.0,
+                    "z": 73.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_4.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 280.0,
+                    "y": 810.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 400.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 28.0,
+                    "y": 81.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 500.0,
+                    "y": 810.0,
+                    "z": 690.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 400.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 50.0,
+                    "y": 81.0,
+                    "z": 69.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_5.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 220.0,
+                    "y": 1000.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 492.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 22.0,
+                    "y": 100.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 450.0,
+                    "y": 1000.0,
+                    "z": 680.0
+                },
+                "Pos": {
+                    "x": 10.0,
+                    "y": 492.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 45.0,
+                    "y": 100.0,
+                    "z": 68.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_6.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 340.0,
+                    "y": 600.0,
+                    "z": 320.0
+                },
+                "Pos": {
+                    "x": 1.5,
+                    "y": 300.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 34.0,
+                    "y": 60.0,
+                    "z": 32.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 540.0,
+                    "y": 600.0,
+                    "z": 490.0
+                },
+                "Pos": {
+                    "x": 1.5,
+                    "y": 300.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 54.0,
+                    "y": 60.0,
+                    "z": 49.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Building_7.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 330.0,
+                    "y": 1100.0,
+                    "z": 330.0
+                },
+                "Pos": {
+                    "x": 3.0,
+                    "y": 517.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 33.0,
+                    "y": 110.0,
+                    "z": 33.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 530.0,
+                    "y": 1100.0,
+                    "z": 530.0
+                },
+                "Pos": {
+                    "x": 3.0,
+                    "y": 517.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 53.0,
+                    "y": 110.0,
+                    "z": 53.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Bush_Green_1.x": {
+        "BreakSoundName": "grass",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 110.0,
+                    "y": 200.0,
+                    "z": 120.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 95.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 11.0,
+                    "y": 20.0,
+                    "z": 12.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 260.0,
+                    "y": 200.0,
+                    "z": 260.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 95.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 26.0,
+                    "y": 20.0,
+                    "z": 26.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 3,
+        "money": 1000
+    },
+    "data/MODEL/MAP_OBJECT/Car_Type_1.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 140.0,
+                    "y": 150.0,
+                    "z": 340.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 14.0,
+                    "y": 15.0,
+                    "z": 34.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 350.0,
+                    "y": 150.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 35.0,
+                    "y": 15.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 6
+    },
+    "data/MODEL/MAP_OBJECT/Car_Type_2.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 140.0,
+                    "y": 150.0,
+                    "z": 340.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 14.0,
+                    "y": 15.0,
+                    "z": 34.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 350.0,
+                    "y": 150.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 35.0,
+                    "y": 15.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 6
+    },
+    "data/MODEL/MAP_OBJECT/Car_Type_3.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 140.0,
+                    "y": 150.0,
+                    "z": 340.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 14.0,
+                    "y": 15.0,
+                    "z": 34.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 350.0,
+                    "y": 150.0,
+                    "z": 500.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 75.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 35.0,
+                    "y": 15.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 6
+    },
+    "data/MODEL/MAP_OBJECT/Car_Type_4.x": {
+        "BreakSoundName": "car",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 150.0,
+                    "y": 130.0,
+                    "z": 410.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 65.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 15.0,
+                    "y": 13.0,
+                    "z": 41.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 295.0,
+                    "y": 130.0,
+                    "z": 550.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 65.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 29.5,
+                    "y": 13.0,
+                    "z": 55.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/Car_Type_5.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 150.0,
+                    "y": 130.0,
+                    "z": 410.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 65.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 15.0,
+                    "y": 13.0,
+                    "z": 41.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 295.0,
+                    "y": 130.0,
+                    "z": 550.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 65.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 29.5,
+                    "y": 13.0,
+                    "z": 55.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/House_Single.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 590.0,
+                    "y": 560.0,
+                    "z": 550.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 285.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 59.0,
+                    "y": 56.0,
+                    "z": 55.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 830.0,
+                    "y": 560.0,
+                    "z": 750.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 285.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 83.0,
+                    "y": 56.0,
+                    "z": 75.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10
+    },
+    "data/MODEL/MAP_OBJECT/House_Type_1_LowPoly.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 535.0,
+                    "y": 740.0,
+                    "z": 1090.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 344.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 53.5,
+                    "y": 74.0,
+                    "z": 109.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 765.0,
+                    "y": 910.0,
+                    "z": 1350.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 352.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 1.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 76.5,
+                    "y": 91.0,
+                    "z": 135.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": -6.008142008795403e-05,
+                "z": 0.0
+            }
+        },
+        "hardness": 10
+    },
+    "data/MODEL/MAP_OBJECT/House_Type_2.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 280.0,
+                    "y": 650.0,
+                    "z": 670.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 320.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 28.0,
+                    "y": 65.0,
+                    "z": 67.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 600.0,
+                    "y": 800.0,
+                    "z": 1000.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 320.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 60.0,
+                    "y": 80.0,
+                    "z": 100.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10
+    },
+    "data/MODEL/MAP_OBJECT/Mansion.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 630.0,
+                    "y": 600.0,
+                    "z": 1100.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 287.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 63.0,
+                    "y": 60.0,
+                    "z": 110.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 1000.0,
+                    "y": 600.0,
+                    "z": 1400.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 287.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 100.0,
+                    "y": 60.0,
+                    "z": 140.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10
+    },
+    "data/MODEL/MAP_OBJECT/Office.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Goal"
+                },
+                "HalfSize": {
+                    "x": 2035.0,
+                    "y": 5790.0,
+                    "z": 2010.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 2913.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 203.5,
+                    "y": 579.0,
+                    "z": 201.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Ground"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 0
+    },
+    "data/MODEL/MAP_OBJECT/Stone_Fence.x": {
+        "BreakSoundName": "Stone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 225.0,
+                    "y": 45.0,
+                    "z": 15.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 21.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 22.5,
+                    "y": 4.5,
+                    "z": 1.5
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 300.0,
+                    "y": 45.0,
+                    "z": 90.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 21.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 30.0,
+                    "y": 4.5,
+                    "z": 9.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 5000
+    },
+    "data/MODEL/MAP_OBJECT/Tree_Large.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 40.0,
+                    "y": 430.0,
+                    "z": 45.0
+                },
+                "Pos": {
+                    "x": -6.0,
+                    "y": 209.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 43.0,
+                    "z": 4.5
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 205.0,
+                    "y": 430.0,
+                    "z": 220.0
+                },
+                "Pos": {
+                    "x": -6.0,
+                    "y": 209.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.5,
+                    "y": 43.0,
+                    "z": 22.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 2
+    },
+    "data/MODEL/MAP_OBJECT/Tree_Medium.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 40.0,
+                    "y": 310.0,
+                    "z": 30.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 156.0,
+                    "z": -11.5
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 31.0,
+                    "z": 3.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 175.0,
+                    "y": 310.0,
+                    "z": 135.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 156.0,
+                    "z": -11.5
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 17.5,
+                    "y": 31.0,
+                    "z": 13.5
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 2
+    },
+    "data/MODEL/MAP_OBJECT/Tree_Spruce.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 100.0,
+                    "y": 500.0,
+                    "z": 100.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 243.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 50.0,
+                    "z": 10.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 305.0,
+                    "y": 500.0,
+                    "z": 310.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 243.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 30.5,
+                    "y": 50.0,
+                    "z": 31.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 2
+    },
+    "data/MODEL/MAP_OBJECT/Tree_Without_Leaves.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 55.0,
+                    "y": 300.0,
+                    "z": 50.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 151.0,
+                    "z": -12.5
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 5.5,
+                    "y": 30.0,
+                    "z": 5.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 160.0,
+                    "y": 325.0,
+                    "z": 205.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 157.5,
+                    "z": -12.5
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 16.0,
+                    "y": 32.5,
+                    "z": 20.5
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 2
+    },
+    "data/MODEL/MAP_OBJECT/ground_concrete.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Ground"
+                },
+                "HalfSize": {
+                    "x": 20.0,
+                    "y": 60.0,
+                    "z": 20.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": -30.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 2.0,
+                    "y": 6.0,
+                    "z": 2.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Ground"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 0
+    },
+    "data/MODEL/MAP_OBJECT/ground_grassy_area.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Ground"
+                },
+                "HalfSize": {
+                    "x": 20.0,
+                    "y": 0.0,
+                    "z": 20.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 2.0,
+                    "y": 0.0,
+                    "z": 2.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Ground"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 0
+    },
+    "data/MODEL/MAP_OBJECT/telephonepole.x": {
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 25.0,
+                    "y": 705.0,
+                    "z": 30.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 340.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 2.5,
+                    "y": 70.5,
+                    "z": 3.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 300.0,
+                    "y": 755.0,
+                    "z": 300.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 364.5,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 30.0,
+                    "y": 75.5,
+                    "z": 30.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/vending_machine_blue.x": {
+        "BreakSoundName": "stone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 40.0,
+                    "y": 100.0,
+                    "z": 70.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 50.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 10.0,
+                    "z": 7.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 150.0,
+                    "y": 100.0,
+                    "z": 170.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 50.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 15.0,
+                    "y": 10.0,
+                    "z": 17.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 5,
+        "money": 5000
+    },
+    "data/MODEL/MAP_OBJECT/vending_machine_red.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 40.0,
+                    "y": 100.0,
+                    "z": 70.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 50.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 10.0,
+                    "z": 7.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 150.0,
+                    "y": 100.0,
+                    "z": 170.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 50.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 15.0,
+                    "y": 10.0,
+                    "z": 17.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 5,
+        "money": 5000
+    }
+}
