@@ -630,6 +630,7 @@
         "money": 1000
     },
     "data/MODEL/MAP_OBJECT/Car_Type_1.x": {
+        "BreakSoundName": "CarCrash",
         "Collider": [
             {
                 "Attribute": {
@@ -695,9 +696,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 6
+        "hardness": 6,
+        "money": 100000
     },
     "data/MODEL/MAP_OBJECT/Car_Type_2.x": {
+        "BreakSoundName": "CarCrash",
         "Collider": [
             {
                 "Attribute": {
@@ -763,9 +766,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 6
+        "hardness": 6,
+        "money": 100000
     },
     "data/MODEL/MAP_OBJECT/Car_Type_3.x": {
+        "BreakSoundName": "CarCrash",
         "Collider": [
             {
                 "Attribute": {
@@ -831,10 +836,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 6
+        "hardness": 6,
+        "money": 100000
     },
     "data/MODEL/MAP_OBJECT/Car_Type_4.x": {
-        "BreakSoundName": "car",
+        "BreakSoundName": "CarCrash",
         "Collider": [
             {
                 "Attribute": {
@@ -901,10 +907,10 @@
             }
         },
         "hardness": 8,
-        "money": 10000
+        "money": 100000
     },
     "data/MODEL/MAP_OBJECT/Car_Type_5.x": {
-        "BreakSoundName": "none",
+        "BreakSoundName": "CarCrash",
         "Collider": [
             {
                 "Attribute": {
@@ -971,7 +977,77 @@
             }
         },
         "hardness": 8,
-        "money": 10000
+        "money": 100000
+    },
+    "data/MODEL/MAP_OBJECT/Fountain_Center.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 550.0,
+                    "y": 200.0,
+                    "z": 550.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 100.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 55.0,
+                    "y": 20.0,
+                    "z": 55.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 850.0,
+                    "y": 200.0,
+                    "z": 850.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 100.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 85.0,
+                    "y": 20.0,
+                    "z": 85.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 0
     },
     "data/MODEL/MAP_OBJECT/House_Single.x": {
         "Collider": [
@@ -1040,6 +1116,76 @@
             }
         },
         "hardness": 10
+    },
+    "data/MODEL/MAP_OBJECT/House_Type_1.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 400.0,
+                    "y": 550.0,
+                    "z": 850.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 275.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 40.0,
+                    "y": 55.0,
+                    "z": 85.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 750.0,
+                    "y": 550.0,
+                    "z": 1200.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 272.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 75.0,
+                    "y": 55.0,
+                    "z": 120.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 0
     },
     "data/MODEL/MAP_OBJECT/House_Type_1_LowPoly.x": {
         "Collider": [
@@ -1315,21 +1461,21 @@
         "hardness": 10,
         "money": 0
     },
-    "data/MODEL/MAP_OBJECT/Stone_Fence.x": {
-        "BreakSoundName": "Stone",
+    "data/MODEL/MAP_OBJECT/Picket_Fence.x": {
+        "BreakSoundName": "BreakWood",
         "Collider": [
             {
                 "Attribute": {
                     "Tag": "Default"
                 },
                 "HalfSize": {
-                    "x": 225.0,
-                    "y": 45.0,
-                    "z": 15.0
+                    "x": 150.0,
+                    "y": 250.0,
+                    "z": 350.0
                 },
                 "Pos": {
                     "x": 0.0,
-                    "y": 21.5,
+                    "y": 120.0,
                     "z": 0.0
                 },
                 "Rot": {
@@ -1339,9 +1485,9 @@
                     "z": 0.0
                 },
                 "Scale": {
-                    "x": 22.5,
-                    "y": 4.5,
-                    "z": 1.5
+                    "x": 15.0,
+                    "y": 25.0,
+                    "z": 35.0
                 },
                 "Type": "Box"
             },
@@ -1351,12 +1497,12 @@
                 },
                 "HalfSize": {
                     "x": 300.0,
-                    "y": 45.0,
-                    "z": 90.0
+                    "y": 250.0,
+                    "z": 500.0
                 },
                 "Pos": {
                     "x": 0.0,
-                    "y": 21.5,
+                    "y": 120.0,
                     "z": 0.0
                 },
                 "Rot": {
@@ -1367,7 +1513,77 @@
                 },
                 "Scale": {
                     "x": 30.0,
-                    "y": 4.5,
+                    "y": 25.0,
+                    "z": 50.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 5,
+        "money": 3000
+    },
+    "data/MODEL/MAP_OBJECT/Stone_Fence.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 370.0,
+                    "y": 70.0,
+                    "z": 15.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 35.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 37.0,
+                    "y": 7.0,
+                    "z": 1.5
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 445.0,
+                    "y": 70.0,
+                    "z": 90.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 35.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 44.5,
+                    "y": 7.0,
                     "z": 9.0
                 },
                 "Type": "Box"
@@ -1386,6 +1602,7 @@
         "money": 5000
     },
     "data/MODEL/MAP_OBJECT/Tree_Large.x": {
+        "BreakSoundName": "BreakWood",
         "Collider": [
             {
                 "Attribute": {
@@ -1451,9 +1668,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 2
+        "hardness": 2,
+        "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Medium.x": {
+        "BreakSoundName": "BreakWood",
         "Collider": [
             {
                 "Attribute": {
@@ -1519,9 +1738,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 2
+        "hardness": 2,
+        "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Spruce.x": {
+        "BreakSoundName": "BreakWood",
         "Collider": [
             {
                 "Attribute": {
@@ -1587,9 +1808,11 @@
                 "z": 0.0
             }
         },
-        "hardness": 2
+        "hardness": 2,
+        "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Without_Leaves.x": {
+        "BreakSoundName": "BreakWood",
         "Collider": [
             {
                 "Attribute": {
@@ -1655,7 +1878,78 @@
                 "z": 0.0
             }
         },
-        "hardness": 2
+        "hardness": 2,
+        "money": 50000
+    },
+    "data/MODEL/MAP_OBJECT/conveniencestore.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 1600.0,
+                    "y": 400.0,
+                    "z": 750.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 210.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 160.0,
+                    "y": 40.0,
+                    "z": 75.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 1950.0,
+                    "y": 400.0,
+                    "z": 1100.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 210.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 195.0,
+                    "y": 40.0,
+                    "z": 110.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 0
     },
     "data/MODEL/MAP_OBJECT/ground_concrete.x": {
         "Collider": [
@@ -1793,7 +2087,148 @@
         },
         "hardness": 0
     },
+    "data/MODEL/MAP_OBJECT/school_route_signs.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 0,
+        "money": 0
+    },
+    "data/MODEL/MAP_OBJECT/stop_sign.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 0,
+        "money": 0
+    },
     "data/MODEL/MAP_OBJECT/telephonepole.x": {
+        "BreakSoundName": "BreakStone",
         "Collider": [
             {
                 "Attribute": {
@@ -1861,6 +2296,76 @@
         },
         "hardness": 8,
         "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/telephonepoleverybig.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 0,
+        "money": 0
     },
     "data/MODEL/MAP_OBJECT/vending_machine_blue.x": {
         "BreakSoundName": "stone",
