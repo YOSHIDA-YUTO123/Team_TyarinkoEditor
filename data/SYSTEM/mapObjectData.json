@@ -1881,6 +1881,146 @@
         "hardness": 2,
         "money": 50000
     },
+    "data/MODEL/MAP_OBJECT/barricade.x": {
+        "BreakSoundName": "breakBrricade",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 100.0,
+                    "y": 70.0,
+                    "z": 40.0
+                },
+                "Pos": {
+                    "x": -4.0,
+                    "y": 31.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 10.0,
+                    "y": 7.0,
+                    "z": 4.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 230.0,
+                    "y": 70.0,
+                    "z": 130.0
+                },
+                "Pos": {
+                    "x": -4.0,
+                    "y": 31.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 23.0,
+                    "y": 7.0,
+                    "z": 13.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 4,
+        "money": 10000
+    },
+    "data/MODEL/MAP_OBJECT/construction_sign.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 30.0,
+                    "y": 90.0,
+                    "z": 40.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 51.0,
+                    "z": -4.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 3.0,
+                    "y": 9.0,
+                    "z": 4.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 140.0,
+                    "y": 90.0,
+                    "z": 130.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 51.0,
+                    "z": -4.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 14.0,
+                    "y": 9.0,
+                    "z": 13.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 5,
+        "money": 10000
+    },
     "data/MODEL/MAP_OBJECT/conveniencestore.x": {
         "BreakSoundName": "none",
         "Collider": [
@@ -1950,6 +2090,76 @@
         },
         "hardness": 10,
         "money": 0
+    },
+    "data/MODEL/MAP_OBJECT/gard_rail.x": {
+        "BreakSoundName": "BreakStone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 20.0,
+                    "y": 80.0,
+                    "z": 190.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 33.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 2.0,
+                    "y": 8.0,
+                    "z": 19.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 170.0,
+                    "y": 80.0,
+                    "z": 300.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 33.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 17.0,
+                    "y": 8.0,
+                    "z": 30.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 50000
     },
     "data/MODEL/MAP_OBJECT/ground_concrete.x": {
         "Collider": [
@@ -2087,6 +2297,76 @@
         },
         "hardness": 0
     },
+    "data/MODEL/MAP_OBJECT/safety_cone.x": {
+        "BreakSoundName": "breakCone",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 40.0,
+                    "y": 35.0,
+                    "z": 40.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 19.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 4.0,
+                    "y": 3.5,
+                    "z": 4.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 90.0,
+                    "y": 35.0,
+                    "z": 100.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 19.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 9.0,
+                    "y": 3.5,
+                    "z": 10.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 4,
+        "money": 1000
+    },
     "data/MODEL/MAP_OBJECT/school_route_signs.x": {
         "BreakSoundName": "BreakStone",
         "Collider": [
@@ -2155,6 +2435,76 @@
             }
         },
         "hardness": 0,
+        "money": 0
+    },
+    "data/MODEL/MAP_OBJECT/stone.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 90.0,
+                    "y": 100.0,
+                    "z": 80.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 53.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 9.0,
+                    "y": 10.0,
+                    "z": 8.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 190.0,
+                    "y": 100.0,
+                    "z": 170.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 53.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 19.0,
+                    "y": 10.0,
+                    "z": 17.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 9,
         "money": 0
     },
     "data/MODEL/MAP_OBJECT/stop_sign.x": {
