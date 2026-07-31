@@ -1948,7 +1948,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 4,
+        "hardness": 2,
         "money": 10000
     },
     "data/MODEL/MAP_OBJECT/construction_sign.x": {
@@ -2364,7 +2364,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 4,
+        "hardness": 1,
         "money": 1000
     },
     "data/MODEL/MAP_OBJECT/school_route_signs.x": {
