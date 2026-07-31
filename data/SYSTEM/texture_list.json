@@ -17,6 +17,9 @@
         },
         {
             "file_path": "data/TEXTURE/convenience_parking.png"
+        },
+        {
+            "file_path": "data/TEXTURE/barricade.png"
         }
     ]
 }
