@@ -69,6 +69,76 @@
         "hardness": 4,
         "money": 3000
     },
+    "data/MODEL/MAP_OBJECT/Broken_gard_rail.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 0
+    },
     "data/MODEL/MAP_OBJECT/Building_1.x": {
         "BreakSoundName": "none",
         "Collider": [
@@ -1668,7 +1738,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 2,
+        "hardness": 4,
         "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Medium.x": {
@@ -1738,7 +1808,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 2,
+        "hardness": 4,
         "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Spruce.x": {
@@ -1808,7 +1878,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 2,
+        "hardness": 4,
         "money": 50000
     },
     "data/MODEL/MAP_OBJECT/Tree_Without_Leaves.x": {
@@ -1878,7 +1948,7 @@
                 "z": 0.0
             }
         },
-        "hardness": 2,
+        "hardness": 4,
         "money": 50000
     },
     "data/MODEL/MAP_OBJECT/barricade.x": {
@@ -2021,6 +2091,76 @@
         "hardness": 5,
         "money": 10000
     },
+    "data/MODEL/MAP_OBJECT/construction_wall.x": {
+        "BreakSoundName": "none",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 10,
+        "money": 0
+    },
     "data/MODEL/MAP_OBJECT/conveniencestore.x": {
         "BreakSoundName": "none",
         "Collider": [
@@ -2090,6 +2230,76 @@
         },
         "hardness": 10,
         "money": 0
+    },
+    "data/MODEL/MAP_OBJECT/excavator.x": {
+        "BreakSoundName": "CarCrash",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 350.0,
+                    "y": 220.0,
+                    "z": 170.0
+                },
+                "Pos": {
+                    "x": 14.0,
+                    "y": 90.0,
+                    "z": 5.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 35.0,
+                    "y": 22.0,
+                    "z": 17.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 560.0,
+                    "y": 330.0,
+                    "z": 370.0
+                },
+                "Pos": {
+                    "x": 14.0,
+                    "y": 90.0,
+                    "z": 5.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 56.0,
+                    "y": 33.0,
+                    "z": 37.0
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 50000
     },
     "data/MODEL/MAP_OBJECT/gard_rail.x": {
         "BreakSoundName": "BreakStone",
@@ -2296,6 +2506,76 @@
             }
         },
         "hardness": 0
+    },
+    "data/MODEL/MAP_OBJECT/pipe.x": {
+        "BreakSoundName": "BreakPipe",
+        "Collider": [
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 200.0,
+                    "y": 30.0,
+                    "z": 40.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 17.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 20.0,
+                    "y": 3.0,
+                    "z": 4.0
+                },
+                "Type": "Box"
+            },
+            {
+                "Attribute": {
+                    "Tag": "Default"
+                },
+                "HalfSize": {
+                    "x": 340.0,
+                    "y": 80.0,
+                    "z": 195.0
+                },
+                "Pos": {
+                    "x": 0.0,
+                    "y": 17.0,
+                    "z": 0.0
+                },
+                "Rot": {
+                    "w": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Scale": {
+                    "x": 34.0,
+                    "y": 8.0,
+                    "z": 19.5
+                },
+                "Type": "Box"
+            }
+        ],
+        "RigitBody": {
+            "IsStatic": true,
+            "Mass": 1.0,
+            "Offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "hardness": 8,
+        "money": 10000
     },
     "data/MODEL/MAP_OBJECT/safety_cone.x": {
         "BreakSoundName": "breakCone",

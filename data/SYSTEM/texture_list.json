@@ -20,6 +20,9 @@
         },
         {
             "file_path": "data/TEXTURE/barricade.png"
+        },
+        {
+            "file_path": "data/TEXTURE/construction_wall.png"
         }
     ]
 }
